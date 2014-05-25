@@ -44,7 +44,7 @@ cacheSolve <- function(x, ...) {
   
   # If the inverse is already computed, return it
   if (!is.null(myInvMatrix)) {
-    message("getting cached data")
+    message("getting cached matrix inverse data")
     return(myInvMatrix)
   }
   
